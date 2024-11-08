@@ -13,7 +13,7 @@ on:
 
 jobs:
   run-tests:
-    runs-on: MacOs
+    runs-on: macOS 15 Sequoia
     name: Tests
     steps:
       - name: Copy source code
